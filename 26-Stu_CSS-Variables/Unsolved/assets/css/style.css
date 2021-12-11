@@ -1,3 +1,8 @@
+
+:root{
+  --main:white;
+  --radius: 
+}
 body {
   font-size: 16px;
   display: flex;
@@ -5,10 +10,11 @@ body {
   min-height: 100vh;
   justify-content: flex-start;
 }
-
+/* example saved */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  background-color: var(--white);
 }
 
 h2 {
@@ -21,6 +27,7 @@ header {
   text-align: center;
   background: #13293d;
   color: #fff;
+
 }
 
 nav {
@@ -28,11 +35,13 @@ nav {
   background-color: #d8a47f;
 }
 
+/* added vaibale */
 nav a {
   color: #13293d;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+  background-color: var();
 }
 
 nav a:hover {
